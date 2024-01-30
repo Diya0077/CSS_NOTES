@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    color: blue;
+}
+.box{
+    height: 304px;
+    width: 100%;
+    border-left: 2px red;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: center;
+    align-content:end;
+    align-items: last baseline;
+}
+.id{
+    background-color: rgb(20, 230, 31);
+    border: 2px red;
+    height: 20px;
+}
+#item1{
+    background-color: rgb(169, 19, 19);
+}
+.container1{
+    background-color: aqua;
+}
+.life{
+    background-color: blueviolet;
+    width: 250px;
+height: 250px;
+position: relative;
+animation-name: shruti;
+animation-duration: 10s;
+animation-iteration-count: 10;
+animation-direction: reverse;
+animation-delay: 2s;}
+@keyframes shruti{
+    from{
+        width: 200px;
+    }
+    to{
+        width: 400px;
+    }
+}
